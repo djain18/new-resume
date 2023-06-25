@@ -1,0 +1,52 @@
+.d-block {
+  border-radius: 5%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #000000, #1a237e, #42a5f5);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.text-body-emphasis {
+  color: white !important;
+}
+.lead {
+  color: white !important;
+}
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.pt-5 {
+  text-align: right;
+}
+.hey {
+  background-image: url("joanna-kosinska-7ACuHoezUYk-unsplash.jpg");
+}
+.hello {
+  background-image: url("luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+}
+.college {
+  text-align: center;
+}
+.hi {
+  background-image: url("https://getbootstrap.com/docs/5.3/examples/features/unsplash-photo-1.jpg");
+}
+h5 {
+  color: white !important;
+}
+p {
+  color: white;
+}
